@@ -1,0 +1,12 @@
+{
+  "algoritmo": "PCA (Analisis de Componentes Principales)",
+  "dataset": "Iris.csv",
+  "componentes_retenidos": 2,
+  "componentes_totales": 4,
+  "umbral_varianza_acumulada": 0.95,
+  "metricas": {
+    "varianza_pc1_pc2_sin_escalar": 97.76,
+    "varianza_pc1_pc2_con_escalamiento": 95.80
+  },
+  "notas": "Sin escalar, petal_length domina PC1 por tener el mayor rango numerico absoluto (artefacto de escala). Con StandardScaler el reparto de varianza es mas equilibrado y es el PCA correcto a interpretar."
+}

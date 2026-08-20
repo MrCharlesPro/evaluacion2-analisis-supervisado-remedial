@@ -1,0 +1,12 @@
+{
+  "algoritmo": "K-Means",
+  "dataset": "cliente_tienda.csv",
+  "variables_agrupacion": ["Ingresos Anuales ($)", "Porcentajde de gastos (1-100)"],
+  "mejor_hiperparametro": {
+    "k_optimo": 5
+  },
+  "metricas": {
+    "coeficiente_silhouette": 0.555,
+    "tamano_clusters": [81, 39, 22, 35, 23]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "algoritmo": "Regresion Ridge (regularizacion L2) sobre target log1p(# Shares)",
+  "dataset": "articulos_ml.csv",
+  "mejores_hiperparametros": {
+    "grado_polinomial": 1,
+    "alpha_ridge": 500
+  },
+  "metricas": {
+    "r2_cv_5fold_promedio": -0.47,
+    "r2_test_optimizado": -0.12,
+    "mae_escala_log": 1.26,
+    "mae_escala_real_shares": 18332,
+    "rmse_escala_real_shares": 24606
+  },
+  "notas": "Senal debil en los datos (correlaciones maximas de 0.33 con # Shares); resultado honesto dado que la viralidad depende de factores no incluidos en el dataset."
+}

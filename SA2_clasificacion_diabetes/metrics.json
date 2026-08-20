@@ -1,0 +1,19 @@
+{
+  "algoritmo": "Arbol de Decision (DecisionTreeClassifier)",
+  "dataset": "diabetes.csv",
+  "mejores_hiperparametros": {
+    "criterion": "entropy",
+    "max_depth": 8,
+    "min_samples_leaf": 10,
+    "min_samples_split": 2
+  },
+  "metricas": {
+    "accuracy_modelo_base_profundidad_14": 0.682,
+    "accuracy_modelo_optimizado": 0.740,
+    "precision": 0.667,
+    "recall": 0.519,
+    "f1_score": 0.583,
+    "roc_auc": 0.824,
+    "f1_promedio_cv_5fold": 0.604
+  }
+}
